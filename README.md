@@ -50,7 +50,7 @@ Here is an example of input objects:
 
 ### Instructions
 
-1. Download the directory ANN from this repo: https://github.com/shlomi1993/NeuralNetworks/tree/main/ANN
+1. Download the directory "ANN" from this repo: https://github.com/shlomi1993/NeuralNetworks/tree/main/ANN
 2. Inside "ANN/data", extract the zip file "original.zip" to get the following files:
    -  train_x - Train objects. Each object is 28x28 values between 0 and 255.
    -  train_y - Train labels. Each label is an integer between 0 and 9. The i'th label associates with the i'th object.
@@ -65,7 +65,7 @@ Here is an example of input objects:
 
 ### Full Report
 
-For further reading about the NN's architecture, hyper-parameters, and loss per epochs, you can read the full report here:  
+For further reading about the NN's architecture, hyper-parameters, and loss per epoch, you can read the full report here:  
 https://github.com/shlomi1993/NeuralNetworks/blob/main/ANN/ann_report.pdf
   
 
@@ -93,14 +93,14 @@ Here is an example of input objects:
 8 - Bag  
 9 - Ankle boo  
 
-This part is divided into two sub-parts:
-- **Experiments:** Implementation of 6 fully connected deep neural networks models for losses and accuracies tests.
-- **Best Model:** Implementation of a fully connected deep neural network model that obtain accuracy greater than 90%.
+This part is divided into two sections:
+1. **Experiments:** Implementation of 6 fully connected deep neural networks models for losses and accuracies tests.
+2. **Best Model:** Implementation of a fully connected deep neural network model that obtains accuracy of at least 90%.
 
 
 ### Experiments
 
-In this part, I have implemented 6 fully connected neural networks models via PyTorch. Each model has different settings and different effects in terms of loss and accuracy.
+In this section, I have implemented 6 fully connected neural networks models via PyTorch. Each model has different settings and different effects in terms of loss and accuracy.
 
 1. **Model A** - Neural Network with two hidden layers, the first layer is at size of 100 and the second layer is at size of 50. Both layers are followed by ReLU activation function, and the model is trained by **SGD** optimizer.
 
@@ -123,23 +123,31 @@ All models use _log_softmax_ as the output of the network and NLL loss function.
 
 ### Best Model
 
+In this section, I have implemented a custom DNN named **Model S** to achieve an accuracy of at least 90%. It consists of two hidden layers, the first is half the size of the input, and the second is a quarter the size of the input. Each layer is followed by ReLU activation function and Batch Normalization, and Drop-out is activated after it. In the end, the DNN returns output through log_softmax function. This model is trained by Adam optimizer as long as the validation accuracy does not converge, and by SGD as long as it converges.
+
+To run the model, follow the instructions below.
+
+
 ### Instructions
-amed test y, similarly to the previous exercise. Your predictions file should contain 5000 rows exactly. Note: Do not shuffle the
-test file.
-The run command to your program should be:
-$ python ex4.py <train_x_path> <train_y_path> <test_x_path> <output_log_name>
-For example:
-$ python ex4.py train_x train_y test_x test_y
-Note: Your program should run only your best model training.
-Evaluation - Report
-Your report file, ex 4 report.pdf, should include the following for EACH
-model:
-1. Plot the average loss per epoch for the validation and training set in
-a single image.
-2. Plot the average accuracy per epoch for the validation and training
-set in a single image.
-3. Test set accuracy (original FashionMNIST test set ).
-4. Hyper parameters.
+
+1. Download the directory "DNN" from this repo: https://github.com/shlomi1993/NeuralNetworks/tree/main/DNN
+2. Inside "DNN/data", extract the zip file "original.zip" to get the following files:
+   -  train_x - Train objects. Each object is 28x28 values between 0 and 255.
+   -  train_y - Train labels. Each label is an integer between 0 and 9 that represent a clothing item. The i'th label associates with the i'th object.
+   -  test_x - Test objects. Their labels needed to be predicted by the DNN.
+3. To run the program, navigate to DNN directory and use the command:
+   > python3 dnn.py train_x train_y test_x test_y
+   
+   where the argument x is the path to the x file. The last argument is a path to a new **output log file**.
+
+**Important Note:** Running time on the whole dataset probably consumes a lot of time. For debugging purposes, use a portion of the dataset. You can get a similar but smaller dataset by using the python script _data_sampler.py_ from this repo, or by using the reduced dataset from the directory "_DNN\data\debug".
+  
+
+### Full Report
+
+For further reading about the NN's architecture, hyper-parameters, and loss/accuracy per epoch, you can read the full report here:  
+https://github.com/shlomi1993/NeuralNetworks/blob/main/DNN/dnn_report.pdf
+
 
 ## CNN - Convolutional Neural Network
 
