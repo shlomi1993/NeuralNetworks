@@ -1,6 +1,8 @@
 # NeuralNetworks
 This repositories documents different neural networks I have implemented during Machine Learning course I took as part of my Computer Science studies at Bar-Ilan University.
 
+![ActiveCourteousAmericanindianhorse-max-1mb](https://user-images.githubusercontent.com/72878018/154795472-e2d8cebc-d516-497c-9e7e-8fa66e2a41d1.gif)
+
 
 ## Description
 
@@ -33,9 +35,9 @@ To run the Neural Networks in this repository, please make sure your system meet
 
 
 ### Description
-In this part, you can find the implementation of my first simple Artificial Neural Network (ANN), implemented manually, without the use of any external packages other than NumPy. The ANN is trained on a dataset called “MNIST”, that contains grayscale images of 10 handwritten digits from 0 to 9. The task is to train a classifier that classifies this data. Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pixels in total. Each pixel has a single pixel-value associated with it, indicating the lightness or darkness of that pixel. This pixel-value is an
-integer between 0 and 255. The labels are the numbers from 0 to 9.
+In this part, you can find the implementation of my first simple Artificial Neural Network (ANN), implemented manually, without the use of any external packages other than NumPy. The ANN is trained on a dataset called “MNIST”, that contains grayscale images of 10 handwritten digits from 0 to 9 and the task is to train a classifier that classifies this data. Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pixels. Each pixel has a single pixel-value associated with it, indicating the lightness or darkness of that pixel. This pixel-value is an integer between 0 and 255. The labels are the numbers from 0 to 9.
 
+Here is an example of input objects:  
 ![image](https://user-images.githubusercontent.com/72878018/154794399-53058676-b36a-4f21-b8a7-f0fe0ecff542.png)
 
 
