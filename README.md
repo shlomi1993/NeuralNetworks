@@ -140,7 +140,7 @@ To run the model, follow the instructions below.
    
    where the argument x is the path to the x file. The last argument is a path to a new **output log file**.
 
-**Important Note:** Running time on the whole dataset probably consumes a lot of time. For debugging purposes, use a portion of the dataset. You can get a similar but smaller dataset by using the python script _data_sampler.py_ from this repo, or by using the reduced dataset from the directory "_DNN\data\debug".
+**Important Note:** Running time on the whole dataset probably consumes a lot of time. For debugging purposes, use a portion of the dataset. You can get a similar but smaller dataset by using the python script _data_sampler.py_ from this repo, or by using the reduced dataset from the directory "_DNN\data\debug_".
   
 
 ### Full Report
@@ -153,9 +153,14 @@ https://github.com/shlomi1993/NeuralNetworks/blob/main/DNN/dnn_report.pdf
 
 ### Description
 
-### Convolution
+#### What is Convolution?
+
+**Objects:**
+**Labels:**
 
 ### Instructions
+
+### Full Report
 
 ## Notes
 
