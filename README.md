@@ -1,7 +1,8 @@
 # NeuralNetworks
 This repository documents different neural networks I have implemented during Machine Learning course I took as part of my Computer Science studies at Bar-Ilan University.
 
-![ActiveCourteousAmericanindianhorse-max-1mb](https://user-images.githubusercontent.com/72878018/154795472-e2d8cebc-d516-497c-9e7e-8fa66e2a41d1.gif)
+![ActiveCourteousAmericanindianhorse-max-1mb](https://user-images.githubusercontent.com/72878018/154795472-e2d8cebc-d516-497c-9e7e-8fa66e2a41d1.gif)  
+(GIF Source: https://www.3blue1brown.com/topics/neural-networks)
 
 
 ## Description
