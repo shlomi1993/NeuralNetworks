@@ -201,6 +201,6 @@ https://github.com/shlomi1993/NeuralNetworks/blob/main/CNN/report/cnn_report.pdf
 
 
 ## Sources
-1. Lecture Notes from the Machine Learning course lectures of Professor Yossi Keshet at Bar-Ilan University.
+1. Lecture notes from the Machine Learning course lectures of Professor Yossi Keshet at Bar-Ilan University.
 2. Wikipedia: https://www.wikipedia.org/
 3. 3Blue1Brown: https://www.3blue1brown.com/topics/neural-networks
