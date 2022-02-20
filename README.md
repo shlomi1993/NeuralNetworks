@@ -198,3 +198,9 @@ bed, cat, down, five, go, house, marvin, no, on, right, sheila, stop, tree, up, 
 
 For further reading about the NN's architecture, hyper-parameters, and loss/accuracy per epoch, you can read the full report here:  
 https://github.com/shlomi1993/NeuralNetworks/blob/main/CNN/report/cnn_report.pdf
+
+
+## Sources
+1. Lecture Notes from the Machine Learning lectures of Professor Yossi Keshet at Bar-Ilan University.
+2. Wikipedia: https://www.wikipedia.org/
+3. 3Blue1Brown: https://www.3blue1brown.com/topics/neural-networks
