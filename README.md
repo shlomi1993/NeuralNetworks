@@ -1,7 +1,7 @@
 # NeuralNetworks
 This repository documents different neural networks I have implemented during Machine Learning course I took as part of my Computer Science studies at Bar-Ilan University.
 
-![ActiveCourteousAmericanindianhorse-max-1mb](https://user-images.githubusercontent.com/72878018/154795472-e2d8cebc-d516-497c-9e7e-8fa66e2a41d1.gif)  
+<p align="center"><img src=https://user-images.githubusercontent.com/72878018/154795472-e2d8cebc-d516-497c-9e7e-8fa66e2a41d1.gif></p>
 (GIF Source: https://www.3blue1brown.com/topics/neural-networks)
 
 
@@ -12,10 +12,10 @@ Neural Networks are Machine Learning computing models inspired by the biological
 A Neural Network (shortly NN) is based on a collection of connected computational units called neurons. Each connection can transmit a signal to other neurons. A neuron receives a signal then processes it and can signal neurons connected to it. The "signal" at a connection is a real number, and the output of each neuron is computed by some non-linear function of the sum of its inputs. The connections are called edges. Neurons and edges typically have a weight that adjusts as learning proceeds. The weight increases or decreases the strength of the signal at a connection. Typically, neurons are aggregated into layers. Different layers may perform different transformations on their inputs. Signals travel from the first layer that is the input layer, through a number of hidden layers, to the last layer that is the output layer.
 
 Here is an example of a simple NN with one hidden layer:  
-<img src=https://user-images.githubusercontent.com/72878018/154792987-ae500000-2500-49ef-a7de-c8497ee20e5c.png>
+<p align="center"><img src=https://user-images.githubusercontent.com/72878018/154792987-ae500000-2500-49ef-a7de-c8497ee20e5c.png width=300></p>  
 
 And here is an example of a multi-hidden-layer NN, or a Deep Neural Network (DNN):  
-<img src=https://user-images.githubusercontent.com/72878018/154793152-f4f6e957-304f-45ff-a11b-67eaafd57485.png>  
+<p align="center"><img src=https://user-images.githubusercontent.com/72878018/154793152-f4f6e957-304f-45ff-a11b-67eaafd57485.png width=600></p>  
 Note that the size of each layer (the number of nodes in each layer) can be different.
 
 **Upnext**, I'll explain shortly about system requirements for running the programs, and then we'll discuss three types of NNs:
@@ -44,8 +44,7 @@ In this part, you can find the implementation of my first simple Artificial Neur
 The ANN is trained on a dataset called “MNIST”, which contains grayscale images of 10 handwritten digits from 0 to 9 and the task is to train a classifier that classifies this data. Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pixels. Each pixel has a single pixel-value associated with it, indicating the lightness or darkness of that pixel. This pixel-value is an integer between 0 and 255.
 
 Here is an example of input objects:  
-![image](https://user-images.githubusercontent.com/72878018/154794399-53058676-b36a-4f21-b8a7-f0fe0ecff542.png)
-
+<p align="center"><img src=https://user-images.githubusercontent.com/72878018/154794399-53058676-b36a-4f21-b8a7-f0fe0ecff542.png></p>  
 
 #### Labels
 The labels are integers from 0 to 9.
@@ -83,7 +82,7 @@ In this part, you can find my implementation of a multi-layer fully-connected ne
 The data in this part is called "FashionMNIST" and it contains 10 different categories of clothing. Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pixels. Each pixel has a single pixel-value associated with it, indicating the lightness or darkness of that pixel. This pixel-value is an integer between 0 and 255. 
 
 Here is an example of input objects:  
-![image](https://user-images.githubusercontent.com/72878018/154796283-43135c20-8841-4639-8165-6d73a6e1894f.png)
+<p align="center"><img src=https://user-images.githubusercontent.com/72878018/154796283-43135c20-8841-4639-8165-6d73a6e1894f.png></p>  
 
 #### Labels
 The possible labels are:  
@@ -159,9 +158,9 @@ https://github.com/shlomi1993/NeuralNetworks/blob/main/DNN/dnn_report.pdf
 
 ### Description
 
-In this part, I have implemented a Convolutional Neural Network (CNN)., or Deep Neural Network (DNN) using **PyTorch** package.
+In this part, I have implemented a Convolutional Neural Network (CNN) using **PyTorch** package.
 
-![image](https://user-images.githubusercontent.com/72878018/154833685-918b2e21-253d-4fdb-b44c-6f3d3f158678.png)
+<p align="center"><img src=https://user-images.githubusercontent.com/72878018/154833685-918b2e21-253d-4fdb-b44c-6f3d3f158678.png></p>
 
 #### What is Convolution?
 > In deep learning, a convolutional neural network (CNN, or ConvNet) is a class of artificial neural network, most commonly applied to analyze visual imagery. They are also known as shift invariant or space invariant artificial neural networks (SIANN), based on the shared-weight architecture of the convolution kernels or filters that slide along input features and provide translation equivariant responses known as feature maps. Counter-intuitively, most convolutional neural networks are only equivariant, as opposed to invariant, to translation. They have applications in image and video recognition, recommender systems, image classification, image segmentation, medical image analysis, natural language processing,[6] brain-computer interfaces, and financial time series.  
